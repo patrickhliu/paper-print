@@ -1,0 +1,12 @@
+<form ng-submit="display()">
+    <h1>Paper Printer </h1>
+    <p>Select Category:</p>
+
+    <div ng-repeat="paper in category" class="radio-choice">
+        <input type='radio' name="paperlist" ng-model="user.choice" ng-value="paper.num">{{' ' + paper.name}}
+    </div>
+    <input type='submit' value="PUSH">
+</form>
+
+
+

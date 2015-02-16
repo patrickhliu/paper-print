@@ -1,0 +1,60 @@
+body {
+}
+
+/* HOME PAGE */
+form {
+    width: 660px;
+    margin: 100px auto;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+form h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+form p, .radio-choice {
+    width: 200px;
+    margin: 20px auto;  
+}
+
+input[type='submit'] {
+    display: block;
+    margin: 0 auto;
+}
+
+/* PRINT PAGE*/
+.btn-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    display: inline;
+    margin: 20px;
+}
+
+canvas {
+    outline: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.birthdayp1, .birthdayp2 {
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+    background-color: #FFFAC7;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+
+    canvas {
+        display: block;
+    }
+}
