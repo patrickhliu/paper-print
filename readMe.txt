@@ -23,4 +23,5 @@ Needed Improvements:
   IE: page 2 is "pulled up" a bit on page 1
   Chrome: 3 pages where page 1 is blank
 
+Github Page: http://pliu82.github.io/paperprint/#/
 
