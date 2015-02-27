@@ -14,13 +14,13 @@ Languages: HTML5 / CSS / vanilla JS
 So far, the templates are only for letter size, 8.5" x 11"
 
 
-In Print Preview, you need to manually turn off header/margin in the browsers printer settings;
-in order for each paper type to print on the entire page.
+When printing...
+1) Turn off headers/footers/margins in the browsers printer settings.
+2) Enable background color printing
 
 Needed Improvements:
-- b-day card print preview issues...
-  Firefox: 3 pages where page 1 is blank / background color not showing
-  IE: page 2 is "pulled up" a bit on page 1
-  Chrome: 3 pages where page 1 is blank
+1)  The b-day card print preview issues...
+    Firefox & Chrome: 3 pages displayed instead of 2.  First page is blank.
+    IE: page 1 has this tiny top margin that pushes everything else down.
 
 
