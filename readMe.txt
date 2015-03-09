@@ -23,5 +23,5 @@ Needed Improvements:
     Firefox & Chrome: 3 pages displayed instead of 2.  First page is blank.
     IE: page 1 has this tiny top margin that pushes everything else down.
 
-Github Page: http://pliu82.github.io/paperprint/#/
+Github Page: http://pliu82.github.io/paper-print/#/
 
