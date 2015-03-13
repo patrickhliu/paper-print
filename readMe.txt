@@ -1,27 +1,32 @@
-Paper Print Project
+****************
+Paper Print
+****************
+This is a random project to try to teach 
+myself Angular JS & HTML5 canvas drawing.	
 
 Project Details:
-Trying to teach myself angular js and some html5 canvas drawing.
-Create a website where users can print out different paper templates.
-Templates so far...
-1) Graph Paper
-2) Birthday Card
-3) Lined Paper
+	Create a website where users can print out graph / lined paper.
 
-Languages: HTML5 / CSS / vanilla JS
-3rd party: Angular JS
+Hosted Link:
+	http://pliu82.github.io/paper-print/#/
 
-So far, the templates are only for letter size, 8.5" x 11"
+Instructions:
+	There are 3 templates: graph paper / lined paper / birthday card. 
+	So far, the templates are only for letter size, 8.5" x 11"
+	When printing...
+	1) Turn off headers/footers/margins in the browsers printer settings.
+	2) Enable background color printing for the birthday card.
 
+Languages: 
+	HTML / CSS / Vanilla Javascript
 
-When printing...
-1) Turn off headers/footers/margins in the browsers printer settings.
-2) Enable background color printing
+3rd Party Tools: 
+	Angular JS
+
+Helpful Resources (many thanks):
+	- Angular JS documentation
 
 Needed Improvements:
-1)  The b-day card print preview issues...
+1)  The b-day card has print preview issues...
     Firefox & Chrome: 3 pages displayed instead of 2.  First page is blank.
     IE: page 1 has this tiny top margin that pushes everything else down.
-
-Github Page: http://pliu82.github.io/paper-print/#/
-
