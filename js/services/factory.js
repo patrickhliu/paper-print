@@ -1,4 +1,10 @@
-paperApp.factory("fact1", function($location) {                    // factory will return back a object with method to return to home page
+/**********************************************************
+factory.js
+The factory will return an object with a method that 
+returns user to home page return to home page.
+***********************************************************/
+
+paperApp.factory("fact1", function($location) {                    
     return {
         homepage: function () {
             $location.path('/');

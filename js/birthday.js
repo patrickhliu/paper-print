@@ -1,4 +1,7 @@
-// JS for the birthday card
+/**********************************************************
+birthday.js
+Vanilla javascript for canvas drawing in the birthday.html file
+***********************************************************/
 
 var printButton = document.querySelector('.print');               // store print button to variable
 var canvas = document.querySelector(".birthdayp1");               // canvas & context for 1st page
@@ -6,7 +9,7 @@ var context = canvas.getContext("2d");
 var can2 = document.querySelector(".birthdayp2");                 // canvas & context for 2nd page
 var con2 = can2.getContext("2d");
 
-document.title = "Happy Birthday";
+document.title = "Paper Print | Happy Birthday";
 
 // draw a half-way line for each page
 context.beginPath();
@@ -231,8 +234,10 @@ setTimeout(function() {
         window.print();
     };
 
-    // call print function after canvas is drawn
-    print2();
+    // call print on page load
+    window.onload = (function() {
+        print2();
+    })();
 
     // set click event handler
     printButton.addEventListener("click", print2);

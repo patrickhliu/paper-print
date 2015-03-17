@@ -1,4 +1,8 @@
-// JS for graph paper
+/**********************************************************
+graph.js
+Vanilla javascript for canvas drawing in the graph.html file
+***********************************************************/
+
 
 var canvas = document.querySelector('.graph');                      // canvas & context variable
 var context = canvas.getContext('2d');
@@ -8,7 +12,7 @@ var w = 1020;                                                       // define wi
 var h = 1320;
 var printButton = document.querySelector(".print");                 // get print button in variable for click events
 
-document.title = "Graph Paper";
+document.title = "Paper Print | Graph";
 
 // draw vertical lines
 context.beginPath();                                               
@@ -37,8 +41,10 @@ function print2 () {
     window.print();
 };
 
-// call print function after canvas is drawn
-print2();
+// call print on page load
+window.onload = (function() {
+    print2();
+})();
 
 // set click event handler
 printButton.addEventListener("click", print2);

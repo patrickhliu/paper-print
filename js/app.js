@@ -1,4 +1,7 @@
-// This is the primary angular js file
+/**********************************************************
+app.js
+The primary angular js controller file
+***********************************************************/
 
 var paperApp = angular.module("paperApp", ['ngRoute']);             // define a module called "paperApp", pass in 'ngRoute' for control of URL routes
 
@@ -19,6 +22,10 @@ paperApp.config(function($routeProvider) {                          // configure
         .when('/3', {
             templateUrl: 'views/lined.html',
             controller: 'linedCtrl'
+        })
+        .when('/4', {
+            templateUrl: 'views/calendar.html',
+            controller: 'calendarCtrl'  
         })
         .otherwise({
             redirectTo: '/'

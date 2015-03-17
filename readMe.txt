@@ -5,13 +5,13 @@ This is a random project to try to teach
 myself Angular JS & HTML5 canvas drawing.	
 
 Project Details:
-	Create a website where users can print out graph / lined paper.
+	Create a website where users can print out graph / lined paper / calendar.
 
 Hosted Link:
 	http://pliu82.github.io/paper-print/#/
 
 Instructions:
-	There are 3 templates: graph paper / lined paper / birthday card. 
+	There are 4 templates: graph paper / lined paper / birthday card / calendar. 
 	So far, the templates are only for letter size, 8.5" x 11"
 	When printing...
 	1) Turn off headers/footers/margins in the browsers printer settings.

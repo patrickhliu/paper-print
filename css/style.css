@@ -3,22 +3,28 @@ body {
 
 /* HOME PAGE */
 form {
-    width: 660px;
+    width: 180px;
     margin: 100px auto;
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
-form h1 {
+form h1, form p {
     text-align: center;
+}
+
+form p {
+    width: 200px;
+    margin: 20px auto;
 }
 
 label {
     display: block;
 }
 
-form p, .radio-choice {
+.radio-choice {
     width: 200px;
-    margin: 20px auto;  
+    margin: 20px auto;
+    margin-left: 20px;  
 }
 
 input[type='submit'] {
@@ -28,19 +34,33 @@ input[type='submit'] {
 
 /* PRINT PAGE*/
 .btn-container {
-    width: 300px;
+    width: 220px;
     margin: 0 auto;
 }
 
 button {
     display: inline;
-    margin: 20px;
+}
+
+.print {
+    margin: 20px 15px 20px 20px;
+}
+
+.home {
+    margin: 20px 20px 20px 15px;
+}
+
+select {
+    display: block;
+    width: 220px;
+    margin: 10px auto 30px auto;
+    text-align: center;
 }
 
 canvas {
     outline: 1px solid black;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 .birthdayp1, .birthdayp2 {
@@ -56,5 +76,9 @@ canvas {
 
     canvas {
         display: block;
+    }
+
+    select {
+        display:none;
     }
 }
