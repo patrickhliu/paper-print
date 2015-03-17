@@ -18,7 +18,7 @@ form p {
 }
 
 label {
-    display: block;
+    display: inline-block;
 }
 
 .radio-choice {

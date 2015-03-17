@@ -3,7 +3,8 @@
     <p>Select Category:</p>
 
     <div ng-repeat="paper in category" class="radio-choice">
-        <input type='radio' name="paperlist" ng-model="user.choice" ng-value="paper.num">{{' ' + paper.name}}
+        <input type='radio' name="paperlist" ng-model="user.choice" ng-value="paper.num" id="{{ paper.num }}">
+        <label for="{{ paper.num }}">{{' ' + paper.name}}</label>
     </div>
     <input type='submit' value="PUSH">
 </form>
